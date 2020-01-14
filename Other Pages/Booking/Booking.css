@@ -1,4 +1,4 @@
-.Forms div input{
+.Forms iframe {
     float: center;
 }
 
@@ -16,3 +16,60 @@ p {
     text-decoration: none;
     display: inline-block;  
 }
+
+
+
+/*header
+====================*/
+
+header {
+    position: absolute; 
+	left: 0;
+	right: 0;
+	margin: 1em;
+}
+
+header nav ul {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	
+}
+
+header nav ul li {
+	display: inline-block;
+	margin: 1em;
+	font-weight: 900;
+	text-decoration: none;
+	text-transform: uppercase;
+	font-size: .75rem;
+	padding: .5em;
+	color: #0000ff ;
+}
+
+
+header nav ul li a {
+	font-weight: 900;
+	text-decoration: none;
+	text-transform: uppercase;
+	font-size: .75rem;
+	padding: .5em;
+	color: Blue;
+}
+
+.logo {
+ max-width: 20%;
+    height:auto;
+
+}
+
+
+@media (min-width:60rem) {
+	.logo {
+		float: left;
+	}
+	header nav {
+		float: right;
+
+	}
+	}
